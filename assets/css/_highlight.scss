@@ -1,174 +1,169 @@
 .highlight {
-    .code, .pre {
-      color: #cccccc;
-      background-color: #3f3f3f;
-    }
-  
-    .hll {
-      background-color: #eee8d5;
-    }
-  
-    .c {
-      color: #93a1a1;
-      font-style: italic;
-    }
-  
-    .err {
-      color: #657b83;
-      background-color: #dc322f;
-    }
-  
-    .esc, .g {
-      color: #657b83;
-    }
-  
-    .k {
-      color: #859900;
-    }
-  
-    .l, .n {
-      color: #657b83;
-    }
-  
-    .o {
-      color: #93a1a1;
-    }
-  
-    .x, .p {
-      color: #657b83;
-    }
-  
-    .ch, .cm {
-      color: #93a1a1;
-      font-style: italic;
-    }
-  
-    .cp {
-      color: #d33682;
-    }
-  
-    .cpf {
-      color: #93a1a1;
-    }
-  
-    .c1, .cs {
-      color: #93a1a1;
-      font-style: italic;
-    }
-  
-    .gd {
-      color: #dc322f;
-    }
-  
-    .ge {
-      color: #657b83;
-      font-style: italic;
-    }
-  
-    .gr {
-      color: #dc322f;
-    }
-  
-    .gh {
-      color: #657b83;
-      font-weight: bold;
-    }
-  
-    .gi {
-      color: #859900;
-    }
-  
-    .go, .gp {
-      color: #657b83;
-    }
-  
-    .gs {
-      color: #657b83;
-      font-weight: bold;
-    }
-  
-    .gu {
-      color: #657b83;
-      text-decoration: underline;
-    }
-  
-    .gt {
-      color: #268bd2;
-    }
-  
-    .kc, .kd {
-      color: #2aa198;
-    }
-  
-    .kn {
-      color: #cb4b16;
-    }
-  
-    .kp, .kr {
-      color: #859900;
-    }
-  
-    .kt {
-      color: #b58900;
-    }
-  
-    .ld {
-      color: #657b83;
-    }
-  
-    .m, .s {
-      color: #2aa198;
-    }
-  
-    .na {
-      color: #657b83;
-    }
-  
-    .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn {
-      color: #268bd2;
-    }
-  
-    .nx, .py {
-      color: #657b83;
-    }
-  
-    .nt, .nv {
-      color: #268bd2;
-    }
-  
-    .ow {
-      color: #859900;
-    }
-  
-    .w {
-      color: #657b83;
-    }
-  
-    .mb, .mf, .mh, .mi, .mo, .sa, .sb, .sc, .dl {
-      color: #2aa198;
-    }
-  
-    .sd {
-      color: #93a1a1;
-    }
-  
-    .s2, .se, .sh, .si, .sx {
-      color: #2aa198;
-    }
-  
-    .sr {
-      color: #cb4b16;
-    }
-  
-    .s1, .ss {
-      color: #2aa198;
-    }
-  
-    .bp, .fm, .vc, .vg, .vi, .vm {
-      color: #268bd2;
-    }
-  
-    .il {
-      color: #2aa198;
-    }
+  .hll {
+    background-color: #073642;
   }
+
+  .c {
+    color: #586e75;
+    font-style: italic;
+  }
+
+  .err {
+    color: #839496;
+    background-color: #dc322f;
+  }
+
+  .esc, .g {
+    color: #839496;
+  }
+
+  .k {
+    color: #859900;
+  }
+
+  .l, .n {
+    color: #839496;
+  }
+
+  .o {
+    color: #586e75;
+  }
+
+  .x, .p {
+    color: #839496;
+  }
+
+  .ch, .cm {
+    color: #586e75;
+    font-style: italic;
+  }
+
+  .cp {
+    color: #d33682;
+  }
+
+  .cpf {
+    color: #586e75;
+  }
+
+  .c1, .cs {
+    color: #586e75;
+    font-style: italic;
+  }
+
+  .gd {
+    color: #dc322f;
+  }
+
+  .ge {
+    color: #839496;
+    font-style: italic;
+  }
+
+  .gr {
+    color: #dc322f;
+  }
+
+  .gh {
+    color: #839496;
+    font-weight: bold;
+  }
+
+  .gi {
+    color: #859900;
+  }
+
+  .go, .gp {
+    color: #839496;
+  }
+
+  .gs {
+    color: #839496;
+    font-weight: bold;
+  }
+
+  .gu {
+    color: #839496;
+    text-decoration: underline;
+  }
+
+  .gt {
+    color: #268bd2;
+  }
+
+  .kc, .kd {
+    color: #2aa198;
+  }
+
+  .kn {
+    color: #cb4b16;
+  }
+
+  .kp, .kr {
+    color: #859900;
+  }
+
+  .kt {
+    color: #b58900;
+  }
+
+  .ld {
+    color: #839496;
+  }
+
+  .m, .s {
+    color: #2aa198;
+  }
+
+  .na {
+    color: #839496;
+  }
+
+  .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn {
+    color: #268bd2;
+  }
+
+  .nx, .py {
+    color: #839496;
+  }
+
+  .nt, .nv {
+    color: #268bd2;
+  }
+
+  .ow {
+    color: #859900;
+  }
+
+  .w {
+    color: #839496;
+  }
+
+  .mb, .mf, .mh, .mi, .mo, .sa, .sb, .sc, .dl {
+    color: #2aa198;
+  }
+
+  .sd {
+    color: #586e75;
+  }
+
+  .s2, .se, .sh, .si, .sx {
+    color: #2aa198;
+  }
+
+  .sr {
+    color: #cb4b16;
+  }
+
+  .s1, .ss {
+    color: #2aa198;
+  }
+
+  .bp, .fm, .vc, .vg, .vi, .vm {
+    color: #268bd2;
+  }
+
+  .il {
+    color: #2aa198;
+  }
+}
