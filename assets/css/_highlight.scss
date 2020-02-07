@@ -1,169 +1,280 @@
 .highlight {
   .hll {
-    background-color: #073642;
+    background-color: #ffffcc;
   }
 
   .c {
-    color: #586e75;
-    font-style: italic;
+    color: #888888;
   }
 
   .err {
-    color: #839496;
-    background-color: #dc322f;
-  }
-
-  .esc, .g {
-    color: #839496;
+    color: #FF0000;
+    background-color: #FFAAAA;
   }
 
   .k {
-    color: #859900;
-  }
-
-  .l, .n {
-    color: #839496;
+    color: #008800;
+    font-weight: bold;
   }
 
   .o {
-    color: #586e75;
-  }
-
-  .x, .p {
-    color: #839496;
+    color: #333333;
   }
 
   .ch, .cm {
-    color: #586e75;
-    font-style: italic;
+    color: #888888;
   }
 
   .cp {
-    color: #d33682;
+    color: #557799;
   }
 
-  .cpf {
-    color: #586e75;
+  .cpf, .c1 {
+    color: #888888;
   }
 
-  .c1, .cs {
-    color: #586e75;
-    font-style: italic;
+  .cs {
+    color: #cc0000;
+    font-weight: bold;
   }
 
   .gd {
-    color: #dc322f;
+    color: #A00000;
   }
 
   .ge {
-    color: #839496;
     font-style: italic;
   }
 
   .gr {
-    color: #dc322f;
+    color: #FF0000;
   }
 
   .gh {
-    color: #839496;
+    color: #000080;
     font-weight: bold;
   }
 
   .gi {
-    color: #859900;
+    color: #00A000;
   }
 
-  .go, .gp {
-    color: #839496;
+  .go {
+    color: #888888;
+  }
+
+  .gp {
+    color: #c65d09;
+    font-weight: bold;
   }
 
   .gs {
-    color: #839496;
     font-weight: bold;
   }
 
   .gu {
-    color: #839496;
-    text-decoration: underline;
+    color: #800080;
+    font-weight: bold;
   }
 
   .gt {
-    color: #268bd2;
+    color: #0044DD;
   }
 
-  .kc, .kd {
-    color: #2aa198;
+  .kc, .kd, .kn {
+    color: #008800;
+    font-weight: bold;
   }
 
-  .kn {
-    color: #cb4b16;
+  .kp {
+    color: #003388;
+    font-weight: bold;
   }
 
-  .kp, .kr {
-    color: #859900;
+  .kr {
+    color: #008800;
+    font-weight: bold;
   }
 
   .kt {
-    color: #b58900;
+    color: #333399;
+    font-weight: bold;
   }
 
-  .ld {
-    color: #839496;
+  .m {
+    color: #6600EE;
+    font-weight: bold;
   }
 
-  .m, .s {
-    color: #2aa198;
+  .s {
+    background-color: #fff0f0;
   }
 
   .na {
-    color: #839496;
+    color: #0000CC;
   }
 
-  .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn {
-    color: #268bd2;
+  .nb {
+    color: #007020;
   }
 
-  .nx, .py {
-    color: #839496;
+  .nc {
+    color: #BB0066;
+    font-weight: bold;
   }
 
-  .nt, .nv {
-    color: #268bd2;
+  .no {
+    color: #003366;
+    font-weight: bold;
+  }
+
+  .nd {
+    color: #555555;
+    font-weight: bold;
+  }
+
+  .ni {
+    color: #880000;
+    font-weight: bold;
+  }
+
+  .ne {
+    color: #FF0000;
+    font-weight: bold;
+  }
+
+  .nf {
+    color: #0066BB;
+    font-weight: bold;
+  }
+
+  .nl {
+    color: #997700;
+    font-weight: bold;
+  }
+
+  .nn {
+    color: #0e84b5;
+    font-weight: bold;
+  }
+
+  .nt {
+    color: #007700;
+  }
+
+  .nv {
+    color: #996633;
   }
 
   .ow {
-    color: #859900;
+    color: #000000;
+    font-weight: bold;
   }
 
   .w {
-    color: #839496;
+    color: #bbbbbb;
   }
 
-  .mb, .mf, .mh, .mi, .mo, .sa, .sb, .sc, .dl {
-    color: #2aa198;
+  .mb, .mf {
+    color: #6600EE;
+    font-weight: bold;
+  }
+
+  .mh {
+    color: #005588;
+    font-weight: bold;
+  }
+
+  .mi {
+    color: #0000DD;
+    font-weight: bold;
+  }
+
+  .mo {
+    color: #4400EE;
+    font-weight: bold;
+  }
+
+  .sa, .sb {
+    background-color: #fff0f0;
+  }
+
+  .sc {
+    color: #0044DD;
+  }
+
+  .dl {
+    background-color: #fff0f0;
   }
 
   .sd {
-    color: #586e75;
+    color: #DD4422;
   }
 
-  .s2, .se, .sh, .si, .sx {
-    color: #2aa198;
+  .s2 {
+    background-color: #fff0f0;
+  }
+
+  .se {
+    color: #666666;
+    font-weight: bold;
+    background-color: #fff0f0;
+  }
+
+  .sh {
+    background-color: #fff0f0;
+  }
+
+  .si {
+    background-color: #eeeeee;
+  }
+
+  .sx {
+    color: #DD2200;
+    background-color: #fff0f0;
   }
 
   .sr {
-    color: #cb4b16;
+    color: #000000;
+    background-color: #fff0ff;
   }
 
-  .s1, .ss {
-    color: #2aa198;
+  .s1 {
+    background-color: #fff0f0;
   }
 
-  .bp, .fm, .vc, .vg, .vi, .vm {
-    color: #268bd2;
+  .ss {
+    color: #AA6600;
+  }
+
+  .bp {
+    color: #007020;
+  }
+
+  .fm {
+    color: #0066BB;
+    font-weight: bold;
+  }
+
+  .vc {
+    color: #336699;
+  }
+
+  .vg {
+    color: #dd7700;
+    font-weight: bold;
+  }
+
+  .vi {
+    color: #3333BB;
+  }
+
+  .vm {
+    color: #996633;
   }
 
   .il {
-    color: #2aa198;
+    color: #0000DD;
+    font-weight: bold;
   }
 }
