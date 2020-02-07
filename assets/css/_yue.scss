@@ -201,13 +201,13 @@
   font-size: 0.96em;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   color: #fdce93;
-  background-color: #3f3f3f;
+  background-color: #272822;
   ::selection {
-    background-color: #3390ff;
+    background-color: #dcc6e0;
   }
 }
 .yue pre::selection {
-  background-color: #3390ff;
+  background-color: #dcc6e0;
 }
 .yue pre code,
 .yue pre tt {
