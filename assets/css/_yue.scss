@@ -16,11 +16,11 @@
 }
 
 .yue ::-moz-selection {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.3);
 }
 
 .yue ::selection {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.3);
 }
 .yue h1,
 .yue h2,
@@ -200,18 +200,18 @@
   line-height: 1.5;
   font-size: 0.96em;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  color: #fdce93;
-  background-color: #272822;
+  color: #4c4c4c;
+  background-color: #f9f2de;
   ::selection {
-    background-color: #dcc6e0;
+    background-color: rgba(98, 185, 131, 0.3);
   }
 }
 .yue pre::selection {
-  background-color: #dcc6e0;
+  background-color: rgba(98, 185, 131, 0.3);
 }
 .yue pre code,
 .yue pre tt {
-  color: #fdce93;
+  color: #4c4c4c;
   background: none;
   padding: 0;
   word-wrap: unset!important;
