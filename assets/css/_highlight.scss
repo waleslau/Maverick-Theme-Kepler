@@ -1,207 +1,179 @@
 .highlight {
-
-  .hll {
-    background-color: #f9f2de;
+    .hll {
+      background-color: #49483e;
+    }
+  
+    .c {
+      color: #75715e;
+    }
+  
+    .err {
+      color: #960050;
+      background-color: #1e0010;
+    }
+  
+    .k {
+      color: #66d9ef;
+    }
+  
+    .l {
+      color: #ae81ff;
+    }
+  
+    .n {
+      color: #f8f8f2;
+    }
+  
+    .o {
+      color: #f92672;
+    }
+  
+    .p {
+      color: #f8f8f2;
+    }
+  
+    .ch, .cm, .cp, .cpf, .c1, .cs {
+      color: #75715e;
+    }
+  
+    .gd {
+      color: #f92672;
+    }
+  
+    .ge {
+      font-style: italic;
+    }
+  
+    .gi {
+      color: #a6e22e;
+    }
+  
+    .go {
+      color: #66d9ef;
+    }
+  
+    .gp {
+      color: #f92672;
+      font-weight: bold;
+    }
+  
+    .gs {
+      font-weight: bold;
+    }
+  
+    .gu {
+      color: #75715e;
+    }
+  
+    .kc, .kd {
+      color: #66d9ef;
+    }
+  
+    .kn {
+      color: #f92672;
+    }
+  
+    .kp, .kr, .kt {
+      color: #66d9ef;
+    }
+  
+    .ld {
+      color: #e6db74;
+    }
+  
+    .m {
+      color: #ae81ff;
+    }
+  
+    .s {
+      color: #e6db74;
+    }
+  
+    .na {
+      color: #a6e22e;
+    }
+  
+    .nb {
+      color: #f8f8f2;
+    }
+  
+    .nc {
+      color: #a6e22e;
+    }
+  
+    .no {
+      color: #66d9ef;
+    }
+  
+    .nd {
+      color: #a6e22e;
+    }
+  
+    .ni {
+      color: #f8f8f2;
+    }
+  
+    .ne, .nf {
+      color: #a6e22e;
+    }
+  
+    .nl, .nn {
+      color: #f8f8f2;
+    }
+  
+    .nx {
+      color: #a6e22e;
+    }
+  
+    .py {
+      color: #f8f8f2;
+    }
+  
+    .nt {
+      color: #f92672;
+    }
+  
+    .nv {
+      color: #f8f8f2;
+    }
+  
+    .ow {
+      color: #f92672;
+    }
+  
+    .w {
+      color: #f8f8f2;
+    }
+  
+    .mb, .mf, .mh, .mi, .mo {
+      color: #ae81ff;
+    }
+  
+    .sa, .sb, .sc, .dl, .sd, .s2 {
+      color: #e6db74;
+    }
+  
+    .se {
+      color: #ae81ff;
+    }
+  
+    .sh, .si, .sx, .sr, .s1, .ss {
+      color: #e6db74;
+    }
+  
+    .bp {
+      color: #f8f8f2;
+    }
+  
+    .fm {
+      color: #a6e22e;
+    }
+  
+    .vc, .vg, .vi, .vm {
+      color: #f8f8f2;
+    }
+  
+    .il {
+      color: #ae81ff;
+    }
   }
-
-  .c {
-    color: #93a1a1;
-    font-style: italic;
-  }
-
-  .err {
-    color: #657b83;
-    background-color: rgba(231, 156, 126, 0.1);
-  }
-
-  .esc,
-  .g {
-    color: #657b83;
-  }
-
-  .k {
-    color: #859900;
-  }
-
-  .l,
-  .n {
-    color: #657b83;
-  }
-
-  .o {
-    color: #93a1a1;
-  }
-
-  .x,
-  .p {
-    color: #657b83;
-  }
-
-  .ch,
-  .cm {
-    color: #93a1a1;
-    font-style: italic;
-  }
-
-  .cp {
-    color: #d33682;
-  }
-
-  .cpf {
-    color: #93a1a1;
-  }
-
-  .c1,
-  .cs {
-    color: #93a1a1;
-    font-style: italic;
-  }
-
-  .gd {
-    color: #dc322f;
-  }
-
-  .ge {
-    color: #657b83;
-    font-style: italic;
-  }
-
-  .gr {
-    color: #dc322f;
-  }
-
-  .gh {
-    color: #657b83;
-    font-weight: bold;
-  }
-
-  .gi {
-    color: #859900;
-  }
-
-  .go,
-  .gp {
-    color: #657b83;
-  }
-
-  .gs {
-    color: #657b83;
-    font-weight: bold;
-  }
-
-  .gu {
-    color: #657b83;
-    text-decoration: underline;
-  }
-
-  .gt {
-    color: #268bd2;
-  }
-
-  .kc,
-  .kd {
-    color: #2aa198;
-  }
-
-  .kn {
-    color: #cb4b16;
-  }
-
-  .kp,
-  .kr {
-    color: #859900;
-  }
-
-  .kt {
-    color: #b58900;
-  }
-
-  .ld {
-    color: #657b83;
-  }
-
-  .m,
-  .s {
-    color: #2aa198;
-  }
-
-  .na {
-    color: #657b83;
-  }
-
-  .nb,
-  .nc,
-  .no,
-  .nd,
-  .ni,
-  .ne,
-  .nf,
-  .nl,
-  .nn {
-    color: #268bd2;
-  }
-
-  .nx,
-  .py {
-    color: #657b83;
-  }
-
-  .nt,
-  .nv {
-    color: #268bd2;
-  }
-
-  .ow {
-    color: #859900;
-  }
-
-  .w {
-    color: #657b83;
-  }
-
-  .mb,
-  .mf,
-  .mh,
-  .mi,
-  .mo,
-  .sa,
-  .sb,
-  .sc,
-  .dl {
-    color: #2aa198;
-  }
-
-  .sd {
-    color: #93a1a1;
-  }
-
-  .s2,
-  .se,
-  .sh,
-  .si,
-  .sx {
-    color: #2aa198;
-  }
-
-  .sr {
-    color: #cb4b16;
-  }
-
-  .s1,
-  .ss {
-    color: #2aa198;
-  }
-
-  .bp,
-  .fm,
-  .vc,
-  .vg,
-  .vi,
-  .vm {
-    color: #268bd2;
-  }
-
-  .il {
-    color: #2aa198;
-  }
-}
