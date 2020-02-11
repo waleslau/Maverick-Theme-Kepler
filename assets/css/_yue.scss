@@ -201,7 +201,15 @@
   font-size: 0.96em;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   color: #4c4c4c;
+  /*
+  Light Theme 
   background-color: #f9f2de;
+  */
+  /*
+  Dark Theme
+  */
+     background-color: #242831;
+
   ::selection {
     background-color: rgba(98, 185, 131, 0.3);
   }
