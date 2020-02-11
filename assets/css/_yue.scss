@@ -200,14 +200,8 @@
   line-height: 1.5;
   font-size: 0.96em;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  color: #4c4c4c;
-  /*
-  Light Theme 
-  background-color: #f9f2de;
-  */
-  /*
-  Dark Theme
-  */
+  color: #cbc9ba;   /* Dark Theme */
+  /* background-color: #f9f2de; Light Theme  */
      background-color: #242831;
 
   ::selection {
@@ -219,7 +213,8 @@
 }
 .yue pre code,
 .yue pre tt {
-  color: #4c4c4c;
+  color: #cbc9ba; /* Dark Theme */
+/*   color: #4c4c4c; Light Theme */
   background: none;
   padding: 0;
   word-wrap: unset!important;
