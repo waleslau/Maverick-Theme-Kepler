@@ -16,7 +16,7 @@ pipeline {
             steps {
               //  sh 'apt install tree -y && tree'
                 sh 'node -v'
-                sh 'npm install gulp-cli -g'
+                sh 'npm install gulp-cli -g '
                 sh 'npm install gulp -D'
                 sh 'make'
             }
@@ -25,9 +25,9 @@ pipeline {
             steps {
                 sh 'git clone ${REPO_URL} ./REPO \
                     && cd ./REPO \
-                    && git checkout latest'
+                    && git checkout latest '
                 sh 'rm -rf ./REPO/* \
-                    && mv ./Kepler/* ./REPO'
+                    && mv ./Kepler/* ./REPO '
                 sh 'cd ./REPO \
                     && git config user.name ${USER_NAME} \
                     && git config user.email ${USER_EMAIL} \
