@@ -11,11 +11,14 @@
     <meta name="template" content="Kepler" />
     <link rel="alternate" type="application/rss+xml" title="{{ fp(config.site_name) }} &raquo; RSS 2.0" href="{{ fp(config.site_prefix) }}feed/index.xml" />
     <link rel="alternate" type="application/atom+xml" title="{{ fp(config.site_name) }} &raquo; ATOM 1.0" href="{{ fp(config.site_prefix) }}feed/atom/index.xml" />
-    <link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/kepler-426969802d.css">
+    <link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/kepler-cf5c67fd1e.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/ExSearch/ExSearch-182e5a8868.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+
+
     <script>
         var ExSearchConfig = {
             root: "",
@@ -127,6 +130,9 @@
             </script>
             <script async src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js' onload="initValine()"></script>
         {% endif %}
+
+        <!--fancybox-->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
         <!--ExSearch-->
         <script src="{{ Router.gen_static_file_prefix() }}assets/ExSearch/ExSearch-493cb9cd89.js"></script>
